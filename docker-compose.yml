@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  api-for-docker:
+    build: .
+    image: api-for-docker:1.0
+    ports:
+      - '9999:9999'
